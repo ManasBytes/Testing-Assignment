@@ -1,4 +1,4 @@
-# Zomato Login Automation (CR04)
+# Zomato Testing Assignment
 
 This project is a Selenium-based automation assignment solution created with the intention to automate some Critially Regression Test Cases  using supported methods.
 
