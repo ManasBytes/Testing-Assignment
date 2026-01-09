@@ -23,3 +23,18 @@ Make sure the following are installed on your system:
 ```bash
 git clone <your-repo-url>
 cd <repo-folder>
+
+### 2. Create and Activate a Virtual Environment
+>python -m venv venv
+>venv\Scripts\activate
+
+### 3. Install Dependencies
+> pip install -r requirements.txt
+
+### 4. Running the Test
+
+Execute the test using the following command:
+> Running the Test
+
+Execute the test using the following command:
+> python ./run.py
