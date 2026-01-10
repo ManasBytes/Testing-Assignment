@@ -21,7 +21,7 @@ class CR04:
     def click_google_login(self):
         """
         Best-effort click on Google login.
-        Actual authentication is MANUAL.
+        Since this uses Google Identity Services Modal, thus we cant automate this part. The login is going to be manual.
         """
         google_btn = self.wait.until(
             EC.presence_of_element_located(
