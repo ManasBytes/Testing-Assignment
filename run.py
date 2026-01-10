@@ -28,6 +28,19 @@ try:
     
     
     
+    
+    # Critical regression test case 5.
+    # To run it, comment out test, result and run run.py file.
+
+    test = CR05(driver)
+    result = test.run(phone_number=PHONE_NUMBER)
+    
+    
+    
+    
+    
+    
+    
     #Critical regression test case 4.
     #To run it, comment out test, result and then if else block and run run.py file.
     
@@ -45,13 +58,6 @@ try:
     
     
     
-    
-    # Critical regression test case 5.
-    # To run it, comment out test, result and then if else block and run run.py file.
-
-    test = CR05(driver)
-
-    result = test.run(phone_number=PHONE_NUMBER)
 
    
     
